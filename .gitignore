@@ -1,3 +1,6 @@
 # Large data file
 data/games_detail.csv
 data/games_detail_cleaned.csv
+
+# ipython notebook checkpoint
+.ipynb_checkpoints
