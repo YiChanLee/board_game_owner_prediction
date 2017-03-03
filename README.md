@@ -1,4 +1,4 @@
 # board_game_owner_prediction
-This project aims on predicting if a boardgame is popular (has many owners). The dataset is scratched from [BoardGameGeek](https://boardgamegeek.com/) via [python scrapper](https://github.com/YiChanLee/scrapers/tree/detail_info/boardgamegeek).<br>
+This project aims on predicting if a boardgame is popular (has many owners). The dataset is scraped from [BoardGameGeek](https://boardgamegeek.com/) via [python scrapper](https://github.com/YiChanLee/scrapers/tree/detail_info/boardgamegeek).<br>
 The project is consist of two notebooks. The first one, 00_cleaning.ipynb is the part of data cleaning and preprocessing, and the second part, 01_modeling.ipynb is for modeling with decision trees. The predictive power of current result is not good enough due to the lack of informative features. Unexpected dependence between `average_weight` and `total_owners` is discovered which makes useful features even less. Future directions about the project are listed at the end of the modeling part, and should be done and updated soon.<br>
 As a rookie in data analysis, comments and suggestions are all welcomed.
