@@ -4,3 +4,6 @@ data/games_detail_cleaned.csv
 
 # ipython notebook checkpoint
 .ipynb_checkpoints
+
+# dev book
+dev.ipynb
